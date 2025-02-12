@@ -7,18 +7,17 @@ import LogoNextjs from "/public/images/logos/icon-nextjs.svg";
 import LogoNodejs from "/public/images/logos/icon-nodejs.svg";
 import LogoExpress from "/public/images/logos/icon-express.svg";
 import LogoExpressLight from "/public/images/logos/icon-express-light.svg";
-import LogoNest from "/public/images/logos/icon-nest.svg";
-import LogoSocket from "/public/images/logos/icon-socket.svg";
-import LogoSocketLight from "/public/images/logos/icon-socket-light.svg";
+import LogoContentful from "/public/images/logos/icon-contentful.svg";
 import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
 import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
 import LogoSass from "/public/images/logos/icon-sass.svg";
+import LogoCSS from "/public/images/logos/icon-css.svg";
 import LogoTailwindcss from "/public/images/logos/icon-tailwindcss.svg";
-import LogoFigma from "/public/images/logos/icon-figma.svg";
-import LogoCypress from "/public/images/logos/icon-cypress.svg";
-import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
-import LogoStorybook from "/public/images/logos/icon-storybook.svg";
+import LogoHTML from "/public/images/logos/icon-html.svg";
+import LogoGraphQL from "/public/images/logos/icon-graphql.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
+import LogoRedux from "/public/images/logos/icon-redux.svg";
+import LogoVite from "/public/images/logos/icon-vite.svg";
 
 import LogoUpwork from "/public/images/logos/logo-upwork.svg";
 import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
@@ -106,6 +105,41 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: "https://nextjs.org/",
   },
   {
+    label: "HTML",
+    logo: LogoHTML,
+    url: "https://www.w3schools.com/html/",
+  },
+  {
+    label: "CSS",
+    logo: LogoCSS,
+    url: "https://www.w3schools.com/css/",
+  },
+  {
+    label: "Tailwindcss",
+    logo: LogoTailwindcss,
+    url: "https://tailwindcss.com/",
+  },
+  {
+    label: "GraphQL",
+    logo: LogoGraphQL,
+    url: "https://graphql.org/",
+  },
+  {
+    label: "Redux",
+    logo: LogoRedux,
+    url: "https://redux.js.org/",
+  },
+  {
+    label: "Contentful",
+    logo: LogoContentful,
+    url: "https://www.contentful.com/",
+  },
+  {
+    label: "Vite",
+    logo: LogoVite,
+    url: "https://vite.dev/",
+  },
+  {
     label: "Node.js",
     logo: LogoNodejs,
     url: "https://nodejs.org/en",
@@ -117,17 +151,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: "https://expressjs.com/",
   },
   {
-    label: "Nest.js",
-    logo: LogoNest,
-    url: "https://nestjs.com/",
-  },
-  {
-    label: "Socket.io",
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: "https://socket.io/",
-  },
-  {
     label: "PostgreSQL",
     logo: LogoPostgreSQL,
     url: "https://www.postgresql.org/",
@@ -136,32 +159,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: "MongoDB",
     logo: LogoMongoDB,
     url: "https://www.mongodb.com/",
-  },
-  {
-    label: "Sass/Scss",
-    logo: LogoSass,
-    url: "https://sass-lang.com/",
-  },
-  {
-    label: "Tailwindcss",
-    logo: LogoTailwindcss,
-    url: "https://tailwindcss.com/",
-  },
-  {
-    label: "Figma",
-    logo: LogoFigma,
-    url: "https://www.figma.com/",
-  },
-  {
-    label: "Cypress",
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: "https://www.cypress.io/",
-  },
-  {
-    label: "Storybook",
-    logo: LogoStorybook,
-    url: "https://storybook.js.org/",
   },
   {
     label: "Git",
