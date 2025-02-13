@@ -65,17 +65,8 @@ const AboutMeSection = () => {
             When I&apos;m not in full-on developer mode, you can find me
             hovering around on twitter or on indie hacker, witnessing the
             journey of early startups or enjoying some free time. You can follow
-            me on{" "}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.TWITTER}
-            >
-              Twitter
-            </Link>{" "}
-            where I share tech-related bites and build in public, or you can
-            follow me on{" "}
+            me on Twitter where I share tech-related bites and build in public,
+            or you can follow me on{" "}
             <Link
               noCustomization
               externalLink
