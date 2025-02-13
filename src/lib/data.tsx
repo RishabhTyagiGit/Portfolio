@@ -17,6 +17,7 @@ import LogoGraphQL from "/public/images/logos/icon-graphql.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
 import LogoRedux from "/public/images/logos/icon-redux.svg";
 import LogoVite from "/public/images/logos/icon-vite.svg";
+import LogoViteLight from "/public/images/logos/icon-vite-light.svg";
 
 import LogoUpwork from "/public/images/logos/logo-upwork.svg";
 import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
@@ -128,6 +129,7 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: "Vite",
     logo: LogoVite,
+    darkModeLogo: LogoViteLight,
     url: "https://vite.dev/",
   },
   {
