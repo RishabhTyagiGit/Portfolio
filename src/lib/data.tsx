@@ -62,10 +62,10 @@ export const NAV_LINKS = [
     label: "Experience",
     href: "#experience",
   },
-  // {
-  //   label: "Work",
-  //   href: "#work",
-  // },
+  {
+    label: "Work",
+    href: "#work",
+  },
   // {
   //   label: "Testimonials",
   //   href: "#testimonials",
