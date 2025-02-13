@@ -10,7 +10,6 @@ import LogoExpressLight from "/public/images/logos/icon-express-light.svg";
 import LogoContentful from "/public/images/logos/icon-contentful.svg";
 import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
 import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
-import LogoSass from "/public/images/logos/icon-sass.svg";
 import LogoCSS from "/public/images/logos/icon-css.svg";
 import LogoTailwindcss from "/public/images/logos/icon-tailwindcss.svg";
 import LogoHTML from "/public/images/logos/icon-html.svg";
