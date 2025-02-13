@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 const title = "Rishabh Tyagi | Full Stack Developer From Hong Kong.";
 const description =
   "A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Hong Kong.";
-const url = "https://sagarshah.dev";
+const url = "https://rishabhtyagi.dev";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
