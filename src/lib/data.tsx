@@ -1,4 +1,4 @@
-import { Github } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 import LogoJavascript from "/public/images/logos/icon-javascript.svg";
 import LogoTypescript from "/public/images/logos/icon-typescript.svg";
@@ -72,6 +72,10 @@ export const SOCIAL_LINKS = [
   {
     icon: Github,
     url: "https://github.com/RishabhTyagiGit",
+  },
+  {
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/214/",
   },
 ];
 

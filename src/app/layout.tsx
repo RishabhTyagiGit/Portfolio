@@ -9,9 +9,9 @@ import Footer from "@/components/layout/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title = "Rishabh Tyagi | Full Stack Developer From Delhi, India.";
+const title = "Rishabh Tyagi | Full Stack Developer From Hong Kong.";
 const description =
-  "A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Delhi, India.";
+  "A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Hong Kong.";
 const url = "https://sagarshah.dev";
 
 export const metadata: Metadata = {

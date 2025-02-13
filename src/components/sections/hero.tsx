@@ -32,16 +32,16 @@ const HeroSection = () => {
             </Typography>
             <Typography>
               I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              on creating exceptional digital experiences that are fast,
+              accessible, visually appealing, and responsive. Even though I have
+              been creating web applications for over 7 years, I still love it
+              as if it was something new.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Delhi, India</Typography>
+              <Typography>Hong Kong</Typography>
             </div>
 
             {/* <div className="flex items-center gap-2">
