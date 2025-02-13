@@ -72,14 +72,6 @@ export const SOCIAL_LINKS = [
     icon: Github,
     url: "https://github.com/RishabhTyagiGit",
   },
-  // {
-  //   icon: Twitter,
-  //   url: "https://twitter.com/shahsagarm",
-  // },
-  // {
-  //   icon: Figma,
-  //   url: "https://www.figma.com/@shahsagarm",
-  // },
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
