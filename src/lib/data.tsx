@@ -58,14 +58,14 @@ export const NAV_LINKS = [
     label: "Skills",
     href: "#skills",
   },
-  {
-    label: "Experience",
-    href: "#experience",
-  },
-  {
-    label: "Work",
-    href: "#work",
-  },
+  // {
+  //   label: "Experience",
+  //   href: "#experience",
+  // },
+  // {
+  //   label: "Work",
+  //   href: "#work",
+  // },
   // {
   //   label: "Testimonials",
   //   href: "#testimonials",
