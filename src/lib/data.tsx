@@ -55,13 +55,21 @@ export const NAV_LINKS = [
     href: "#about",
   },
   {
-    label: "Work",
-    href: "#work",
+    label: "Skills",
+    href: "#skills",
   },
   {
-    label: "Testimonials",
-    href: "#testimonials",
+    label: "Experience",
+    href: "#experience",
   },
+  // {
+  //   label: "Work",
+  //   href: "#work",
+  // },
+  // {
+  //   label: "Testimonials",
+  //   href: "#testimonials",
+  // },
   {
     label: "Contact",
     href: "#contact",
