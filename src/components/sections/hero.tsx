@@ -31,11 +31,13 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m a web developer specializing in React and its ecosystem,
-              dedicated to building fast, accessible, and visually stunning
-              digital experiences. Even though I have been creating web
-              applications for over 7 years, I still love it as if it was
-              something new.
+              I&apos;m a web developer passionate about building fast,
+              accessible, and visually stunning digital experiences. With over
+              seven years of experience in front-end development, I specialize
+              in crafting high-quality web applications using modern
+              technologies, including React and its ecosystem. Despite my years
+              in the field, I still approach every project with the same
+              excitement and curiosity as when I first started.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
