@@ -41,10 +41,10 @@ const HeroSection = () => {
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2">
+            {/* <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
               <Typography>Hong Kong</Typography>
-            </div>
+            </div> */}
 
             {/* <div className="flex items-center gap-2">
               <div className="flex h-6 w-6 items-center justify-center">
