@@ -20,6 +20,10 @@ import LogoVite from "/public/images/logos/icon-vite.svg";
 import LogoViteLight from "/public/images/logos/icon-vite-light.svg";
 
 import LogoUpwork from "/public/images/logos/logo-upwork.svg";
+import LogoExaAg from "/public/images/logos/logo-exa-ag.svg";
+import LogoExaAgLight from "/public/images/logos/logo-exa-ag-light.svg";
+import LogoAdaptReady from "/public/images/logos/logo-adapt-ready.png";
+import LogoVelotio from "/public/images/logos/logo-velotio.svg";
 import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
 import LogoGreenApexLight from "/public/images/logos/logo-greenapex-light.svg";
 import LogoDotnpixel from "/public/images/logos/logo-dotnpixel.svg";
@@ -174,39 +178,44 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: "Upwork logo",
-    position: "Independent Freelancer",
-    startDate: new Date(2021, 10),
+    logo: LogoVelotio,
+    logoAlt: "Velotio logo",
+    position: "Senior Software Engineer",
+    startDate: new Date(2021, 8),
     currentlyWorkHere: true,
     summary: [
-      "Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.",
-      "Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.",
+      "Working for various clients like Netflix, NetApp.",
+      "Applied network optimization strategies, including resource hinting (preconnect, DNS-prefetch, preload), resource hint priority, and lazy loading to enhance application efficiency.",
+      "Enhanced Core Web Vitals (LCP, FID, CLS) by optimizing rendering performance.",
+      "Integrated an interactive 3D models using Babylon.js",
+      "Handling sprint planning & task distribution.",
+      "Worked with a variety of technologies, including React.js, Next.js, Babylon.js, Contentful CMS, ImageKit DAM, Tailwindcss, Storybook, and others.",
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: "Greenapex logo",
-    position: "Team Lead",
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    logo: LogoAdaptReady,
+    logoAlt: "Adapt Ready logo",
+    position: "React Developer",
+    startDate: new Date(2020, 4),
+    endDate: new Date(2021, 8),
     summary: [
-      "Acted as team lead in different projects.",
-      "Brainstormed new ideas & gathered requirements for internal projects.",
-      "Designed architecture of different projects (frontend + backend).",
-      "Worked on enterprise-level projects for a variety of clients.",
-      "Handled sprint planning & task distribution.",
+      "Acted as frontend lead in different projects.",
+      "Developed scalable and efficient GraphQL APIs",
+      "Brainstormed new ideas & gathered requirements for projects.",
+      "Worked with a variety of technologies, including React.js, Express.js, PostgreSQL, Mapbox, and others.",
     ],
   },
   {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: "Dotnpixel logo",
-    position: "Full Stack Developer",
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ["Worked as a full stack developer (React / Laravel)."],
+    logo: LogoExaAg,
+    darkModeLogo: LogoExaAgLight,
+    logoAlt: "ExaAg logo",
+    position: "Front End Developer",
+    startDate: new Date(2018, 2),
+    endDate: new Date(2020, 4),
+    summary: [
+      "Optimized site content for mobile devices using responsive design techniques.",
+      "Improved website accessibility by implementing best practices for ADA compliance.",
+    ],
   },
 ];
 
