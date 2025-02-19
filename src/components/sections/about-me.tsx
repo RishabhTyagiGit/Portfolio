@@ -71,28 +71,28 @@ const AboutMeSection = () => {
             .
           </Typography>
           <Typography>Finally, some quick bits about me.</Typography>
-          <div className="flex flex-col gap-2 pl-4 md:flex-row md:gap-6">
-            <ul className="flex list-inside list-disc flex-col gap-2 marker:text-gray-800">
-              <Typography component="li" className="flex">
-                <span className="ml-[-1.5rem] mr-1">•</span>
+          <div className="flex flex-col gap-2 md:flex-row md:gap-6">
+            <ul className="flex flex-col gap-2">
+              <Typography component="li" className="flex items-start">
+                <span className="mr-2">•</span>
                 <span>B.Tech. in Computer Engineering</span>
               </Typography>
-              <Typography component="li" className="flex">
-                <span className="ml-[-1.5rem] mr-1">•</span>
+              <Typography component="li" className="flex items-start">
+                <span className="mr-2">•</span>
                 <span>
                   Experienced in both startup & enterprise environments
                 </span>
               </Typography>
             </ul>
-            <ul className="flex list-inside list-disc flex-col gap-2 marker:text-gray-800">
-              <Typography component="li" className="flex">
-                <span className="ml-[-1.5rem] mr-1">•</span>
+            <ul className="flex flex-col gap-2">
+              <Typography component="li" className="flex items-start">
+                <span className="mr-2">•</span>
                 <span>
                   Passionate about performance, security, and clean code
                 </span>
               </Typography>
-              <Typography component="li" className="flex">
-                <span className="ml-[-1.5rem] mr-1">•</span>
+              <Typography component="li" className="flex items-start">
+                <span className="mr-2">•</span>
                 <span>Avid learner & tech enthusiast</span>
               </Typography>
             </ul>
