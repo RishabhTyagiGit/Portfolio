@@ -5,7 +5,7 @@ import Tag from "@/components/data-display/tag";
 import Container from "@/components/layout/container";
 import Typography from "@/components/general/typography";
 import Link from "@/components/navigation/link";
-import { EXTERNAL_LINKS } from "@/lib/data";
+import { EXTERNAL_LINKS, SOCIAL_LINKS } from "@/lib/data";
 
 const AboutMeSection = () => {
   return (
@@ -58,15 +58,15 @@ const AboutMeSection = () => {
             When I&apos;m not in full-on developer mode, you can find me
             exploring new technologies, engaging with the dev community, or
             catching up on the latest trends in startups and web security. You
-            can connect with me on GitHub or LinkedIn to see what I&apos;m
-            working on.
+            can connect with me on
             <Link
               noCustomization
               externalLink
               withUnderline
-              href={EXTERNAL_LINKS.GITHUB}
+              href={SOCIAL_LINKS[1].url}
             >
-              GitHub
+              {" "}
+              LinkedIn
             </Link>
             .
           </Typography>
@@ -75,7 +75,7 @@ const AboutMeSection = () => {
             <ul className="flex flex-col gap-2">
               <Typography component="li" className="flex items-start">
                 <span className="mr-2">•</span>
-                <span>B.Tech. in Computer Engineering</span>
+                <span>B.Tech. in Computer Science</span>
               </Typography>
               <Typography component="li" className="flex items-start">
                 <span className="mr-2">•</span>

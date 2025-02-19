@@ -189,7 +189,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
       "Enhanced Core Web Vitals (LCP, FID, CLS) by optimizing rendering performance.",
       "Integrated an interactive 3D models using Babylon.js",
       "Handling sprint planning & task distribution.",
-      "Worked with a variety of technologies, including React.js, Next.js, Babylon.js, Contentful CMS, ImageKit DAM, Tailwindcss, Storybook, and others.",
+      "Worked with a variety of technologies, including React.js, Redux.js, Babylon.js, Contentful CMS, Tailwindcss, Storybook, and others.",
     ],
   },
   {
