@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Copy, Mail, Phone } from "lucide-react";
 // import Link from 'next/link';
 
@@ -13,7 +13,9 @@ import useWindowSize from "@/hooks/use-window-size";
 import { copyTextToClipboard } from "@/lib/utils";
 
 let email = "mailtorishabhtyagi@gmail.com";
-let phone = "+852 98836736";
+// Define both phone numbers
+let asiaPhone = "+852 98836736";
+let globalPhone = "+91 7259616908";
 
 type CopyValue = "email" | "phone";
 
@@ -23,6 +25,27 @@ const ContactSection = () => {
   const [copiedValueType, setCopiedValueType] = useState<CopyValue | null>(
     null
   );
+  const [isAsiaRegion, setIsAsiaRegion] = useState(false);
+
+  useEffect(() => {
+    // Fetch user's location using IP geolocation API
+    fetch("https://ipapi.co/json/")
+      .then((response) => response.json())
+      .then((data) => {
+        // Check if user is from Hong Kong, China, or Macao
+        const country = data.country_code;
+        setIsAsiaRegion(
+          country === "HK" || country === "CN" || country === "MO"
+        );
+      })
+      .catch((error) => {
+        console.error("Error fetching location:", error);
+        setIsAsiaRegion(false); // Default to global phone on error
+      });
+  }, []);
+
+  // Get the appropriate phone number based on region
+  const phone = isAsiaRegion ? asiaPhone : globalPhone;
 
   const handleCopyClick = async (text: string, type: CopyValue) => {
     try {
@@ -48,7 +71,7 @@ const ContactSection = () => {
           <Tag label="Get in touch" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
-          What’s next? Feel free to reach out to me if you are looking for a
+          What's next? Feel free to reach out to me if you are looking for a
           developer, have a query, or simply want to connect.
         </Typography>
       </div>
