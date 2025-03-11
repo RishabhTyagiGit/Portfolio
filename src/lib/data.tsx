@@ -206,84 +206,84 @@ export const EXPERIENCES: ExperienceDetails[] = [
   },
 ];
 
-// export const PROJECTS: ProjectDetails[] = [
-//   {
-//     name: "Wingie",
-//     description:
-//       "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
-//     url: "https://www.wingie.com",
-//     previewImage: ProjectWingie,
-//     technologies: [
-//       "React",
-//       "Typescript",
-//       "React Bootstrap",
-//       "Firebase",
-//       "Express.js",
-//       "PostgreSQL",
-//       "Styled Components",
-//       "Redux",
-//     ],
-//   },
-//   {
-//     name: "Fiskil",
-//     description:
-//       "A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.",
-//     url: "https://fiskil.com.au",
-//     previewImage: ProjectFiskil,
-//     technologies: [
-//       "React",
-//       "Next.js",
-//       "Typescript",
-//       "Tailwindcss",
-//       "Material UI",
-//       "Redux Toolkit",
-//       "React Query",
-//       "Express.js",
-//       "PostgreSQL",
-//       "Firebase",
-//       "AWS Amplify",
-//       "Cypress",
-//       "Storybook",
-//     ],
-//   },
-//   {
-//     name: "Pepehousing",
-//     description:
-//       "A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
-//     url: "https://pepehousing.com",
-//     previewImage: ProjectPepehousing,
-//     technologies: [
-//       "React",
-//       "Next.js",
-//       "Typescript",
-//       "Tailwindcss",
-//       "Redux Toolkit",
-//       "React Query",
-//       "Storybook",
-//     ],
-//   },
-// ];
+export const PROJECTS: ProjectDetails[] = [
+  // {
+  //   name: "Wingie",
+  //   description:
+  //     "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
+  //   url: "https://www.wingie.com",
+  //   previewImage: ProjectWingie,
+  //   technologies: [
+  //     "React",
+  //     "Typescript",
+  //     "React Bootstrap",
+  //     "Firebase",
+  //     "Express.js",
+  //     "PostgreSQL",
+  //     "Styled Components",
+  //     "Redux",
+  //   ],
+  // },
+  // {
+  //   name: "Fiskil",
+  //   description:
+  //     "A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.",
+  //   url: "https://fiskil.com.au",
+  //   previewImage: ProjectFiskil,
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "Typescript",
+  //     "Tailwindcss",
+  //     "Material UI",
+  //     "Redux Toolkit",
+  //     "React Query",
+  //     "Express.js",
+  //     "PostgreSQL",
+  //     "Firebase",
+  //     "AWS Amplify",
+  //     "Cypress",
+  //     "Storybook",
+  //   ],
+  // },
+  // {
+  //   name: "Pepehousing",
+  //   description:
+  //     "A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
+  //   url: "https://pepehousing.com",
+  //   previewImage: ProjectPepehousing,
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "Typescript",
+  //     "Tailwindcss",
+  //     "Redux Toolkit",
+  //     "React Query",
+  //     "Storybook",
+  //   ],
+  // },
+];
 
-// export const TESTIMONIALS: TestimonialDetails[] = [
-//   {
-//     personName: "Krisztian Gyuris",
-//     personAvatar: AvatarKrisztian,
-//     title: "Founder - inboxgenie.io",
-//     testimonial:
-//       "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Rishabh and will rehire in the future for Frontend development.",
-//   },
-//   {
-//     personName: "Eugen Esanu",
-//     personAvatar: AvatarEugen,
-//     title: "Founder - shosho.design",
-//     testimonial:
-//       "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
-//   },
-//   {
-//     personName: "Joe Matkin",
-//     personAvatar: AvatarDummy,
-//     title: "Freelancer",
-//     testimonial:
-//       "Rishabh was extremely easy and pleasant to work with and he truly cares about the project being a success. Rishabh has a high level of knowledge and was able to work on my MERN stack application without any issues.",
-//   },
-// ];
+export const TESTIMONIALS: TestimonialDetails[] = [
+  // {
+  //   personName: "Krisztian Gyuris",
+  //   personAvatar: AvatarKrisztian,
+  //   title: "Founder - inboxgenie.io",
+  //   testimonial:
+  //     "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Rishabh and will rehire in the future for Frontend development.",
+  // },
+  // {
+  //   personName: "Eugen Esanu",
+  //   personAvatar: AvatarEugen,
+  //   title: "Founder - shosho.design",
+  //   testimonial:
+  //     "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
+  // },
+  // {
+  //   personName: "Joe Matkin",
+  //   personAvatar: AvatarDummy,
+  //   title: "Freelancer",
+  //   testimonial:
+  //     "Rishabh was extremely easy and pleasant to work with and he truly cares about the project being a success. Rishabh has a high level of knowledge and was able to work on my MERN stack application without any issues.",
+  // },
+];
