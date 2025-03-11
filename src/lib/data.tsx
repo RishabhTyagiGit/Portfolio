@@ -19,22 +19,11 @@ import LogoRedux from "/public/images/logos/icon-redux.svg";
 import LogoVite from "/public/images/logos/icon-vite.svg";
 import LogoViteLight from "/public/images/logos/icon-vite-light.svg";
 
-import LogoUpwork from "/public/images/logos/logo-upwork.svg";
 import LogoExaAg from "/public/images/logos/logo-exa-ag.svg";
 import LogoExaAgLight from "/public/images/logos/logo-exa-ag-light.svg";
 import LogoAdaptReady from "/public/images/logos/logo-adapt-ready.png";
 import LogoVelotio from "/public/images/logos/logo-velotio.svg";
-import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
-import LogoGreenApexLight from "/public/images/logos/logo-greenapex-light.svg";
-import LogoDotnpixel from "/public/images/logos/logo-dotnpixel.svg";
-import LogoDotnpixelLight from "/public/images/logos/logo-dotnpixel-light.svg";
 
-import ProjectFiskil from "/public/images/project-fiskil.png";
-import ProjectWingie from "/public/images/project-wingie.png";
-import ProjectPepehousing from "/public/images/project-pepehousing.png";
-
-import AvatarKrisztian from "/public/images/avatar-krisztian.png";
-import AvatarEugen from "/public/images/avatar-eugen.png";
 import AvatarDummy from "/public/images/avatar-dummy.svg";
 
 import {
@@ -49,8 +38,6 @@ export const EXTERNAL_LINKS = {
   GITHUB_REPO: "https://github.com/RishabhTyagiGit/sagarshah.dev",
   TWITTER: "https://twitter.com",
   FIGMA: "https://www.figma.com",
-  FIGMA_FILE:
-    "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
 };
 
 export const NAV_LINKS = [
@@ -219,84 +206,84 @@ export const EXPERIENCES: ExperienceDetails[] = [
   },
 ];
 
-export const PROJECTS: ProjectDetails[] = [
-  {
-    name: "Wingie",
-    description:
-      "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
-    url: "https://www.wingie.com",
-    previewImage: ProjectWingie,
-    technologies: [
-      "React",
-      "Typescript",
-      "React Bootstrap",
-      "Firebase",
-      "Express.js",
-      "PostgreSQL",
-      "Styled Components",
-      "Redux",
-    ],
-  },
-  {
-    name: "Fiskil",
-    description:
-      "A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.",
-    url: "https://fiskil.com.au",
-    previewImage: ProjectFiskil,
-    technologies: [
-      "React",
-      "Next.js",
-      "Typescript",
-      "Tailwindcss",
-      "Material UI",
-      "Redux Toolkit",
-      "React Query",
-      "Express.js",
-      "PostgreSQL",
-      "Firebase",
-      "AWS Amplify",
-      "Cypress",
-      "Storybook",
-    ],
-  },
-  {
-    name: "Pepehousing",
-    description:
-      "A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
-    url: "https://pepehousing.com",
-    previewImage: ProjectPepehousing,
-    technologies: [
-      "React",
-      "Next.js",
-      "Typescript",
-      "Tailwindcss",
-      "Redux Toolkit",
-      "React Query",
-      "Storybook",
-    ],
-  },
-];
+// export const PROJECTS: ProjectDetails[] = [
+//   {
+//     name: "Wingie",
+//     description:
+//       "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
+//     url: "https://www.wingie.com",
+//     previewImage: ProjectWingie,
+//     technologies: [
+//       "React",
+//       "Typescript",
+//       "React Bootstrap",
+//       "Firebase",
+//       "Express.js",
+//       "PostgreSQL",
+//       "Styled Components",
+//       "Redux",
+//     ],
+//   },
+//   {
+//     name: "Fiskil",
+//     description:
+//       "A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.",
+//     url: "https://fiskil.com.au",
+//     previewImage: ProjectFiskil,
+//     technologies: [
+//       "React",
+//       "Next.js",
+//       "Typescript",
+//       "Tailwindcss",
+//       "Material UI",
+//       "Redux Toolkit",
+//       "React Query",
+//       "Express.js",
+//       "PostgreSQL",
+//       "Firebase",
+//       "AWS Amplify",
+//       "Cypress",
+//       "Storybook",
+//     ],
+//   },
+//   {
+//     name: "Pepehousing",
+//     description:
+//       "A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
+//     url: "https://pepehousing.com",
+//     previewImage: ProjectPepehousing,
+//     technologies: [
+//       "React",
+//       "Next.js",
+//       "Typescript",
+//       "Tailwindcss",
+//       "Redux Toolkit",
+//       "React Query",
+//       "Storybook",
+//     ],
+//   },
+// ];
 
-export const TESTIMONIALS: TestimonialDetails[] = [
-  {
-    personName: "Krisztian Gyuris",
-    personAvatar: AvatarKrisztian,
-    title: "Founder - inboxgenie.io",
-    testimonial:
-      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Rishabh and will rehire in the future for Frontend development.",
-  },
-  {
-    personName: "Eugen Esanu",
-    personAvatar: AvatarEugen,
-    title: "Founder - shosho.design",
-    testimonial:
-      "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
-  },
-  {
-    personName: "Joe Matkin",
-    personAvatar: AvatarDummy,
-    title: "Freelancer",
-    testimonial:
-      "Rishabh was extremely easy and pleasant to work with and he truly cares about the project being a success. Rishabh has a high level of knowledge and was able to work on my MERN stack application without any issues.",
-  },
-];
+// export const TESTIMONIALS: TestimonialDetails[] = [
+//   {
+//     personName: "Krisztian Gyuris",
+//     personAvatar: AvatarKrisztian,
+//     title: "Founder - inboxgenie.io",
+//     testimonial:
+//       "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Rishabh and will rehire in the future for Frontend development.",
+//   },
+//   {
+//     personName: "Eugen Esanu",
+//     personAvatar: AvatarEugen,
+//     title: "Founder - shosho.design",
+//     testimonial:
+//       "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
+//   },
+//   {
+//     personName: "Joe Matkin",
+//     personAvatar: AvatarDummy,
+//     title: "Freelancer",
+//     testimonial:
+//       "Rishabh was extremely easy and pleasant to work with and he truly cares about the project being a success. Rishabh has a high level of knowledge and was able to work on my MERN stack application without any issues.",
+//   },
+// ];

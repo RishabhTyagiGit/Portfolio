@@ -97,10 +97,6 @@ const AboutMeSection = () => {
               </Typography>
             </ul>
           </div>
-          {/* <Typography>
-            One last thing, I&apos;m available for freelance work, so feel free
-            to reach out and say hello! I promise I don&apos;t bite 😉
-          </Typography> */}
         </div>
       </div>
     </Container>
