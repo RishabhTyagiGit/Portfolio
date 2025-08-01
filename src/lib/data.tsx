@@ -169,7 +169,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: "Velotio logo",
     position: "Senior Software Engineer",
     startDate: new Date(2021, 8),
-    currentlyWorkHere: true,
+    endDate: new Date(2025, 6),
     summary: [
       "Working for various clients like Netflix, NetApp.",
       "Applied network optimization strategies, including resource hinting (preconnect, DNS-prefetch, preload), resource hint priority, and lazy loading to enhance application efficiency.",
